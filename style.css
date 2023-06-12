@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(5, 42, 252, 0.856);
+    margin: 0;
+    padding: 0;
+}
+#score_output_span{
+    font-size: 30px;
+    margin-right: 800px;
+}
+#timer_span{
+    font-size: 30px;
+    float: right;
+    margin-right: 200px;
+}
+#S_tobe_drawn{
+    color: goldenrod;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+#show_sketch{
+    margin-left: 570px;
+}
+h1{
+    margin-left:406px ;
+    color: gold;
+}
