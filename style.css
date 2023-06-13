@@ -4,23 +4,68 @@ body{
     padding: 0;
 }
 #score_output_span{
-    font-size: 30px;
+    font-size: 25px;
     margin-right: 800px;
+    font-weight: bold;
 }
 #timer_span{
-    font-size: 30px;
+    font-size: 25px;
     float: right;
     margin-right: 200px;
+    font-weight: bold;
 }
 #S_tobe_drawn{
     color: goldenrod;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 #show_sketch{
-    margin-left: 570px;
+   float: left;
+   font-size:15px;
+   font-weight: bold;
 }
 h1{
-    margin-left:406px ;
+    
     color: gold;
+}
+
+.heading{
+    text-align: center;
+   margin-right: 140px;
+    
+}
+
+#sketch_name{
+    font-weight: bold;
+}
+
+#confidence{
+    font-weight: bold;
+}
+
+canvas 
+{
+  border:5px solid goldenrod;
+  border-radius:20px;
+  margin-top:300px;
+  box-shadow:5px 5px 5px grey;
+  box-shadow: 1px 1px 38px #ffffff;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+
+from {box-shadow: 1px 1px 38px rgb(124, 4, 4);}
+to {box-shadow: 1px 1px 38px maroon;}
+
+}
+
+
+p, span
+{
+  padding-top:10px;
+  font-family: 'Special Elite', fantasy;
+  font-size:25px;
 }
